@@ -33,7 +33,7 @@
                     <a class="nav-link" href="index.jsp#lugarFecha">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.jsp#formularioOrador">Conviértete en orador</a>
+                    <a class="nav-link" aria-current="page" href="index.jsp#formularioOrador">Conviï¿½rtete en orador</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar tickets</a>

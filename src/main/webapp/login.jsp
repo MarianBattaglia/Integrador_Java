@@ -33,7 +33,7 @@
                     <a class="nav-link" href="index.jsp#lugarFecha">El lugar y la fecha</a>
                     </li>
                     <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.jsp#formularioOrador">Conviértete en orador</a>
+                    <a class="nav-link" aria-current="page" href="index.jsp#formularioOrador">Conviï¿½rtete en orador</a>
                     </li>
                     <li class="nav-item">
                     <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar tickets</a>
@@ -57,7 +57,7 @@
                                    <input type="text" class="form-control" name="nombre" placeholder="Usuario" aria-label="Nombre" required>  
                                </div>
                                 <div class="col-8 mb-3 mb-4">
-                                  <input type="password" class="form-control" name="password" placeholder="Contraseña" aria-label="Password" required>
+                                  <input type="password" class="form-control" name="password" placeholder="Contraseï¿½a" aria-label="Password" required>
                                 </div>
                            </div>
                            <div class="row justify-content-center">
@@ -69,7 +69,7 @@
                            </div>
                        </form>
                        <h5>Usuario: admin</h5>
-                       <h5>Contraseña: 1234</h5>
+                       <h5>Contraseï¿½a: 1234</h5>
                    </div>
                </div>
            </section>

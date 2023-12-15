@@ -36,7 +36,7 @@
 	                    <a class="nav-link" href="index.jsp#lugarFecha">El lugar y la fecha</a>
 	                    </li>
 	                    <li class="nav-item">
-	                    <a class="nav-link" aria-current="page" href="index.jsp#formularioOrador">Conviértete en orador</a>
+	                    <a class="nav-link" aria-current="page" href="index.jsp#formularioOrador">Conviï¿½rtete en orador</a>
 	                    </li>
 	                    <li class="nav-item">
 	                    <a class="nav-link colorVerde" href="./pages/tickets.html">Comprar tickets</a>
@@ -64,7 +64,7 @@
 	                </div>
 	                    <textarea name="tema" id="exampleFormControlTextarea1" cols="55" rows="5" placeholder="<%=orador.getTema()%>" required><%=orador.getTema()%> </textarea>
 	                </div>
-	                <p>Recuerda incluir un título para tu charla</p>
+	                <p>Recuerda incluir un tï¿½tulo para tu charla</p>
 	                <div>
 	                    <button type="submit" class="btnEnviar btnModificar btn btn-form">Modificar</button>
 	                </div>

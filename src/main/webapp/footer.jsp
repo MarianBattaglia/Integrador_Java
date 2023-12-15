@@ -6,13 +6,13 @@
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/error404.html">Preguntas frecuentes</a></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/error404.html">Contáctanos</a></li>
+                            <a class="nav-link" href="./pages/error404.html">Contï¿½ctanos</a></li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/error404.html">Prensa</a></li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/error404.html">Conferencias</a></li>
                         <li class="nav-item">
-                            <a class="nav-link" href="./pages/error404.html">Términos y condiciones</a></li>
+                            <a class="nav-link" href="./pages/error404.html">Tï¿½rminos y condiciones</a></li>
                         <li class="nav-item">
                             <a class="nav-link" href="./pages/error404.html">Privacidad</a></li>
                         <li class="nav-item">
