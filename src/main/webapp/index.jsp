@@ -6,7 +6,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Integrador Front</title>
+    <title>Proyecto Integrador Back</title>
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
@@ -29,7 +29,7 @@
                         <h4 class="colorNaranja">JavaScript</h4>
                         <h4 class="colorCeleste">React</h4>
                         <h3 class="tituloNombre">Steve Jobs</h3>
-                        <p>La innovaciï¿½n no solo se trata de tecnologï¿½a, se trata de comprender las necesidades y deseos de las personas en un nivel profundo. En esta charla no hablarï¿½ de los productos que fabricamos, sino de las experiencias que diseï¿½amos. Los espero!</p>
+                        <p>La innovación no solo se trata de tecnología, se trata de comprender las necesidades y deseos de las personas en un nivel profundo. En esta charla no hablaré de los productos que fabricamos, sino de las experiencias que diseñamos. Los espero!</p>
                     </div>
                 </div>
                 <div class="tarjeta card col-md-3">
@@ -38,7 +38,7 @@
                         <h4 class="colorNaranja">JavaScript</h4>
                         <h4 class="colorCeleste">React</h4>
                         <h3 class="tituloNombre">Bill Gates</h3>
-                        <p> En esta charla hablarï¿½ sobre el increï¿½ble poder de la tecnologï¿½a para transformar vidas y crear cambios positivos. Vivimos en una era digital donde la innovaciï¿½n tiene el potencial de resolver algunos de los desafï¿½os mï¿½s apremiantes del mundo.</p>
+                        <p> En esta charla hablaré sobre el increíble poder de la tecnología para transformar vidas y crear cambios positivos. Vivimos en una era digital donde la innovación tiene el potencial de resolver algunos de los desafíos más apremiantes del mundo.</p>
                     </div>
                 </div>
                 <div class="tarjeta card col-md-3">
@@ -47,14 +47,14 @@
                         <h4 class="colorGris">Negocios</h4>
                         <h4 class="colorRojo">Startups</h4>
                         <h3 class="tituloNombre">Ada Lovelace</h3>
-                        <p>Quiero compartir con ustedes mi pasiï¿½n por la ciencia y la matemï¿½tica, y cï¿½mo estas disciplinas pueden coexistir armoniosamente con la creatividad y la imaginaciï¿½n; en este mundo donde las mujeres rara vez tienen voz en el ï¿½mbito cientï¿½fico</p>
+                        <p>Quiero compartir con ustedes mi pasión por la ciencia y la matemática, y cómo estas disciplinas pueden coexistir armoniosamente con la creatividad y la imaginación; en este mundo donde las mujeres rara vez tienen voz en el ámbito científico</p>
                     </div>         
                 </div>
             </div>
         </section>
 
         <section class="container mb-4 text-center" id="restoOradores">
-            <a class="btn btn-outline-success btnOradores" href="<%=request.getContextPath()%>/FindAllOradorController">Conoce al resto de los ORADORES</a>
+            <a class="btn btn-form btnOradores" href="<%=request.getContextPath()%>/FindAllOradorController">Conoce al resto de los ORADORES</a>
             <!--<a class="btn btn-outline-success btnOradores" href="./pages/listado.html">Conoce al resto de los ORADORES</a>-->
         </section>
 
@@ -62,8 +62,8 @@
             <img src="./assets/img/honolulu.jpg" alt="Honolulu" class="honolulu col-md-6" loading="lazy">
             <div class="lugar col-md-6">
                 <h2>Bs As - Octubre</h2>
-                <p>Buenos Aires es la provincia y localidad mï¿½s grande del estado de Argentina, en los Estados Unidos. Honolulu es la mï¿½s sureï¿½a de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al ï¿½rea urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad - condado consolidada que cubre toda la ciudad (aproximadamente 600 km2 de superficie).</p>
-                <a class="btnConoceMas" href="./pages/error404.html">Conocï¿½ mï¿½s</a>
+                <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina, en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu han formado una ciudad - condado consolidada que cubre toda la ciudad (aproximadamente 600 km² de superficie).</p>
+                <a class="btnConoceMas" href="./pages/error404.html">Conocé más</a>
             </div>
         </section>
 
@@ -74,25 +74,23 @@
 
         <section id="formularioOrador" class="formularioOrador">
             <h2>
-                <div>CONVIERTETE EN UN</div>
+                <div>CONVIÉRTETE EN UN</div>
                 ORADOR
             </h2>
-            <p>Anï¿½tate como orador para dar una charla ignite. Cuï¿½ntanos de que quieres hablar!</p>
-            <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST" clas="recuadrosFormulario">
+            <p>Anótate como orador para dar una charla ignite. Cuéntanos de qué quieres hablar!</p>
+            <form action="<%=request.getContextPath()%>/CreateOradorController" method="POST" class="recuadrosFormulario">
                 <div>
                     <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
                     <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
                 </div>
                 <div>
-                    <input type="mail" id="mail" name="mail" placeholder="Ejemplo@gmail.com">
-                    <input type="password" placeholder="ContraseÃ±a">
+                    <input type="email" id="mail" name="mail" placeholder="correo@youmail.com" required>
                 </div>
-                <div>
-                    <textarea name="tema" id="tema" cols="55" rows="5" placeholder="Sobre quÃ© quieres hablar?" required></textarea>
+                    <textarea name="tema" id="tema" cols="55" rows="5" placeholder="Sobre qué quieres hablar?" required></textarea>
                 </div>
-                <p>Recuerda incluir un tï¿½tulo para tu charla</p>
+                <p>Recuerda incluir un título para tu charla</p>
                 <div>
-                    <input type="submit" value="Enviar" class="btnEnviar">
+                    <input type="submit" value="Enviar" class="btn btn-form btnEnviar">
                 </div>
             </form>
         </section>
@@ -108,8 +106,8 @@
             </div>
             <div class="col-md-6 textoCoto">
                 <img src="./assets/img/logo_coto.png" alt="Logo de Coto"> 
-                <!--<h1>VENï¿½ A COTO!</h1>-->
-                <p>Este fin de semana aprovecha las ofertas que tenemos para vos! Hay mas de 3000 productos en descuento!!! Ademï¿½s con tu compra, participas en el sorteo por uno de los 1500 changos de nuestro aniversario! Te vas a perder esta oportunidad???</p>
+                <!--<h1>VENÍ A COTO!</h1>-->
+                <p>Este fin de semana aprovecha las ofertas que tenemos para vos! Hay mas de 3000 productos en descuento!!! Además con tu compra, participas en el sorteo por uno de los 1500 changos de nuestro aniversario! Te vas a perder esta oportunidad???</p>
                 <div class="btnEnlaceCoto">
                     <a href="https://www.coto.com.ar/">COTO, YO TE CONOZCO!</a>
                 </div>
