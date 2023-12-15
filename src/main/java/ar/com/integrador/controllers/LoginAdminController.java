@@ -26,7 +26,11 @@ public class LoginAdminController  extends HttpServlet {
 		String nombre= req.getParameter("nombre");//name de input
 		String password = req.getParameter("password");
 	    String nombreGuardado = "admin";
+<<<<<<< HEAD
 		String passwordGuardado = "1234";
+=======
+		String passwordGuardado = "cac";
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 		if(nombre == null || "".equals(nombre)) {
 			//ahora redirect!!!!
 			getServletContext().getRequestDispatcher("/FindAllOradorController").forward(req, resp);
@@ -39,5 +43,12 @@ public class LoginAdminController  extends HttpServlet {
 			getServletContext().getRequestDispatcher("/FindAllOradorController").forward(req, resp);
 		}
 		
+<<<<<<< HEAD
 	}
 }
+=======
+		
+		
+	}
+}
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d

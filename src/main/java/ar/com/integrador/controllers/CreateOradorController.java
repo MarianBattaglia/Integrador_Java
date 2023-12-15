@@ -48,10 +48,18 @@ public class CreateOradorController extends HttpServlet {
 			getServletContext().getRequestDispatcher("/index.jsp").forward(req, resp);
 			return;
 		}
+<<<<<<< HEAD
+=======
+       
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 
 		
 		
 		
+<<<<<<< HEAD
+=======
+		
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 		//interface = new class que implementa la interface
 		iOradorDAO dao = new OradorDAOMysqlImpl();
 		

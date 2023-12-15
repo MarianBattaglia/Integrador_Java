@@ -204,7 +204,11 @@ public class OradorDAOMysqlImpl implements iOradorDAO {
 		String activoBd = resultset.getString("activo");
 		
 
+<<<<<<< HEAD
 		return new Orador(nombreBd,apellidoBd,mailBd,temaBd,activoBd);
+=======
+		return new Orador(idBd,nombreBd,apellidoBd,mailBd,temaBd,activoBd);
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 	}
 	
 }

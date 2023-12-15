@@ -86,7 +86,10 @@ header img:hover{
     border-radius: 5%;    
     padding: 10px;
     margin: 5px;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .quieroSerOrador:hover{
@@ -102,7 +105,10 @@ header img:hover{
     font-size: 20px;
     padding: 10px;
     margin: 5px;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .comprarTickets:hover{
@@ -130,7 +136,10 @@ header img:hover{
     margin: 15px;
     margin-top: 0;
     border-radius: 1%;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .tarjeta img{
@@ -193,7 +202,10 @@ header img:hover{
     text-decoration: none;
     color: white;
     background-color: green;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
     
 .btnOradores:hover{
@@ -225,7 +237,10 @@ header img:hover{
     border-radius: 5%;
     padding: 4px;
     color: white;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .btnConoceMas:hover {
@@ -266,11 +281,14 @@ header img:hover{
     width: 24%;
     padding: 4px;
     margin: 0.5% 1%;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
 .recuadrosFormulario #mail{
     width: 50.5%;
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .recuadrosFormulario textarea{
@@ -375,7 +393,11 @@ header img:hover{
     font-size: 16px;
     width: 100px;
     height: 64px;
+<<<<<<< HEAD
     margin: 5px 2vw;
+=======
+    margin: 5px 30px;
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -388,7 +410,10 @@ header img:hover{
     background-color: rgb(10, 239, 67) !important;
     border-radius: 5px;
     margin: 2px;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .tarjetaTickets{
@@ -396,7 +421,10 @@ header img:hover{
     width: 18%;
     text-align: center;
     border-radius: 0;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .tarjetaTickets h3{
@@ -477,10 +505,13 @@ header img:hover{
     width: 57%;
 }
 
+<<<<<<< HEAD
 .formularioTicket input{
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 .formTkNombre{
     padding-right:0%; 
 }
@@ -504,7 +535,10 @@ header img:hover{
     border: solid lightgray 1px;
     color: grey;
     padding-left: 8px;
+<<<<<<< HEAD
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 .totalAPagar{
@@ -597,10 +631,13 @@ header img:hover{
 	min-height: 68.4vh;
 }
 
+<<<<<<< HEAD
 #form-orador input{
 	box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
 }
 
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 .btnLogin{
     text-decoration: none;
     background-color: rgb(150, 201, 62);
@@ -619,6 +656,7 @@ header img:hover{
     min-height: 59vh;
 }
 
+<<<<<<< HEAD
 /*Pagina "Dashboard"*/
 
 .buscadorOrador form{
@@ -655,6 +693,11 @@ header img:hover{
 
 #formularioModificarOrador{
     min-height: 67vh;
+=======
+.prueba22{
+	text-aling: center;
+	background-color: blue;
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 }
 
 
@@ -697,11 +740,19 @@ header img:hover{
     .quieroSerOrador{
         margin: 20px;
         display: block;
+<<<<<<< HEAD
+=======
+        box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
     }
 
     .comprarTickets{
         margin: 20px;
         display: block;
+<<<<<<< HEAD
+=======
+        box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
     }
 
     .oradores h2 div{
@@ -711,6 +762,14 @@ header img:hover{
 
     .tarjeta{
         width: 90%;
+<<<<<<< HEAD
+=======
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    }
+
+    .btnOradores{
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
     }
 
     .lugarFecha{
@@ -726,18 +785,31 @@ header img:hover{
         text-align: center;
     }
 
+<<<<<<< HEAD
+=======
+    .btnConoceMas{
+        box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.5);
+    }
+
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
     .formularioOrador p{
         padding-left: 10%;
         padding-right: 10%;
     }
 
     .recuadrosFormulario input, textArea{
+<<<<<<< HEAD
         width: 45%;    
     }
     
     .recuadrosFormulario #mail{
     width: 92.5%;
 	}
+=======
+        width: 45%;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    }
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 
     .recuadrosFormulario textarea{
         width: 92.5%;
@@ -993,10 +1065,13 @@ header img:hover{
         width: 45%;
         box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
     }
+<<<<<<< HEAD
     
     .recuadrosFormulario #mail{
     width: 92.5%;
 	}
+=======
+>>>>>>> ed8ec47a455d0f2137c4005c1aeb3e7444091b4d
 
     .recuadrosFormulario textarea{
         width: 92.5%;
