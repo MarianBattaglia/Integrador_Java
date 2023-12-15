@@ -68,8 +68,6 @@
                                </div>
                            </div>
                        </form>
-                       <h5>Usuario: admin</h5>
-                       <h5>Contraseña: 1234</h5>
                    </div>
                </div>
            </section>
